@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/theme1.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <form action="mail.php" method="POST">
+            <div class="from-group">
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" id="firstname">
+            </div>
+            <div class="from-group">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" id="lastname">
+            </div>
+            <div class="from-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="from-group">
+              <label for="message">Message</label>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+            <button type="submit" name="button">Submit</button>
+
+        </form>
+      </div>
+    </section>

@@ -3253,6 +3253,26 @@ ol {
     text-transform: uppercase;
     margin: 0 auto;
 }
+/* fromhere */
+
+.footer set-bg{
+  display:flex;
+  flex-direction: row-reverse;
+}
+.shazia{
+  position:fixed;
+  top:530px;
+  right: 10px;
+  background-color: #ed9f3d;
+  box-shadow: 3px -1px 5px #ed9f3d;
+}
+.omg img{
+border:2px solid green;
+
+color:red;
+}
+
+/* to here */
 
 
 /*=========== Safety Icon Css=========*/
