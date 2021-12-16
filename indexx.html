@@ -3,13 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="css/theme1.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <style >
+  html { background-color: #ed9f3d; }
+  section{
+    height: 100vh;
+    width: 100%;
+    background-color: #ed9f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.START{
+  width: 90%;
+  max-width: 400px;
+  height: 500px;
+  border:1px solid #fff;
+  padding: 20px;
+  box-shadow: 2px 1px 20px #fff;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+}
+.from-group{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+
+}
+
+.from-group input,
+.from-group textarea{
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  border:1px solid #ed9f3d73;
+}
+textarea{
+  resize: vertical;
+}
+button[type="submit"]{
+
+  width: 100%;
+ padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  border-radius: 8px;
+  color: #ed9f3d;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+  background-color: lavender;
+}
+
+
+
+  </style>
   </head>
   <body>
     <section>
-      <div class="container">
-        <form action="mail.php" method="POST">
+      <div class="START">
+        <form action="contact.php" method="POST">
             <div class="from-group">
               <label for="firstname">First Name</label>
               <input type="text" name="firstname" id="firstname">
